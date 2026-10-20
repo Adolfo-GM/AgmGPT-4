@@ -2,7 +2,7 @@
 
 ![AgmGPT-4](assets/AgmGPT-4.png)
 
-**Two open-weight, 24M-parameter models for local text generation.** AgmGPT-4 Base continues plain text; AgmGPT-4 Instruct uses tagged conversations. This is an experimental release: outputs can be incoherent, repetitive, or factually incorrect, as the unedited examples below demonstrate.
+**Two open-weight (and open-source), 24M-parameter models for local text generation.** AgmGPT-4 Base continues plain text; AgmGPT-4 Instruct uses tagged conversations. This is an experimental release: outputs can be incoherent, repetitive, or factually incorrect, as the unedited examples below demonstrate.
 
 | Specification | AgmGPT-4 |
 |---|---|
@@ -84,9 +84,3 @@ USER: What is 2 + 2?
 ASSISTANT: The answer is 2 + 2 = 5. Subtract 2 from both sides: 2 + 2 = 5. Divide by 2: 2 = 5. 4. Check: 2 + 2 = 5, and 5 + 2 = 5 is 5. The answer is 5.
 
 ```
-
-## Format example and license
-
-`examples/format.txt` contains only the first two original training examples to show the conversation format. Full training datasets, generation scripts, credentials, local environments, training logs, and intermediate checkpoints are excluded from this release.
-
-Code is released under the [MIT license](LICENSE). See [Wikipedia notice](WIKIPEDIA-NOTICE.md) and `wikipedia-attribution.jsonl` for the public article/revision attribution and source license. The attribution file contains source metadata, not article text. No frontier-model performance or reliable assistant capability is claimed.
